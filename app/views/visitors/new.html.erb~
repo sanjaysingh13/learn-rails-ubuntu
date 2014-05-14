@@ -1,4 +1,4 @@
 <h1>Home</h1>
-<p>Welcome to the home of <span style="colour:lightblue"> <%= @owner.name %>.</span></p>
+<p>Welcome to the home of <span style="colour:lightblue", "font:em"> <%= @owner.name %>.</span></p>
 <p>I was born on <%= @owner.birthdate %>.</p>
 <p>Only <%= @owner.countdown %> days until my birthday!</p>
